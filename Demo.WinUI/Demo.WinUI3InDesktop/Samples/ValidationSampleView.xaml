@@ -1,0 +1,54 @@
+﻿<Page
+    x:Class="Demo.WinUI3InDesktop.Samples.ValidationSampleView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Demo.WinUI3InDesktop.Samples"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModel="using:Demo.Shared.Samples"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.DataContext>
+        <viewModel:ValidationSampleViewModel />
+    </Page.DataContext>
+
+    <StackPanel Orientation="Vertical"
+                HorizontalAlignment="Left"
+                Margin="10">
+        <TextBlock Style="{ThemeResource HeaderTextBlockStyle}">Validation</TextBlock>
+
+        <!-- Input boxes -->
+        <TextBox Margin="5" Width="500"
+                 Header="First Name"
+                 Text="{x:Bind Path=ViewModel.FirstName, Mode=TwoWay}" />
+        <TextBox Margin="5" Width="500"
+                 Header="Second Name"
+                 Text="{x:Bind Path=ViewModel.LastName, Mode=TwoWay}" />
+        <TextBox Margin="5" Width="500"
+                 Header="Likes"
+                 Text="{x:Bind Path=ViewModel.Likes, Mode=TwoWay}" />
+        <TextBox Margin="5" Width="200" HorizontalAlignment="Left"
+                 Header="Count Cars"
+                 Text="{x:Bind Path=ViewModel.CarsCount, Mode=TwoWay}" />
+
+        <!-- Readonly copies to see, what is actually written to the viewmodel -->
+        <Grid Height="50" />
+        <TextBox Margin="5" Width="500"
+                 Header="First Name"
+                 Text="{x:Bind Path=ViewModel.FirstName, Mode=TwoWay}"
+                 IsReadOnly="True"/>
+        <TextBox Margin="5" Width="500"
+                 Header="Second Name"
+                 Text="{x:Bind Path=ViewModel.LastName, Mode=TwoWay}"
+                 IsReadOnly="True"/>
+        <TextBox Margin="5" Width="500"
+                 Header="Likes"
+                 Text="{x:Bind Path=ViewModel.Likes, Mode=TwoWay}"
+                 IsReadOnly="True"/>
+        <TextBox Margin="5" Width="200" HorizontalAlignment="Left"
+                 Header="Count Cars"
+                 Text="{x:Bind Path=ViewModel.CarsCount, Mode=TwoWay}"
+                 IsReadOnly="True"/>
+    </StackPanel>
+</Page>

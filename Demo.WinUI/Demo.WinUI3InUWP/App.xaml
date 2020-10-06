@@ -1,0 +1,57 @@
+﻿<Application
+    x:Class="Demo.WinUI3InUWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:media="using:Microsoft.UI.Xaml.Media"
+    xmlns:local="using:Demo.WinUI3InUWP"
+    xmlns:localUtil="using:Demo.WinUI3InUWP.Util">
+    
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
+
+                <!-- Custom theme overrides -->
+                <ResourceDictionary>
+                    <ResourceDictionary.ThemeDictionaries>
+                        <ResourceDictionary x:Key="Default">
+                            <!-- The "Default" theme dictionary is used unless a specific
+                                 light, dark, or high contrast dictionary is provided. These
+                                 resources should be tested with both the light and dark themes,
+                                 and specific light or dark resources provided as needed. -->
+                            <media:AcrylicBrush x:Key="NavigationViewDefaultPaneBackground"
+                                               BackgroundSource="HostBackdrop"
+                                               FallbackColor="{ThemeResource SystemChromeMediumColor}"
+                                               TintColor="{ThemeResource SystemChromeMediumColor}"
+                                               TintOpacity=".6" />
+                            <media:AcrylicBrush x:Key="NavigationViewExpandedPaneBackground"
+                                               BackgroundSource="HostBackdrop"
+                                               FallbackColor="{ThemeResource SystemChromeMediumColor}"
+                                               TintColor="{ThemeResource SystemChromeMediumColor}"
+                                               TintOpacity=".6" />
+                            <media:AcrylicBrush x:Key="ApplicationPageBackgroundThemeBrush"
+                                               BackgroundSource="HostBackdrop"
+                                               FallbackColor="{ThemeResource SystemChromeLowColor}"
+                                               TintColor="{ThemeResource SystemChromeLowColor}"
+                                               TintOpacity=".8" />
+                        </ResourceDictionary>
+                        <ResourceDictionary x:Key="HighContrast">
+                            <!-- Always include a "HighContrast" dictionary when you override
+                                 theme resources. This empty dictionary ensures that the 
+                                 default high contrast resources are used when the user
+                                 turns on high contrast mode. -->
+                        </ResourceDictionary>
+                    </ResourceDictionary.ThemeDictionaries>
+                </ResourceDictionary>
+
+                <!-- Custom resources -->
+                <ResourceDictionary>
+                    <localUtil:CommandToWinUIConverter x:Key="CommandToWinUIConverter" />
+                </ResourceDictionary>
+                
+            </ResourceDictionary.MergedDictionaries>
+
+            <!-- Other app resources here -->
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
