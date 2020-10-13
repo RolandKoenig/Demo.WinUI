@@ -29,8 +29,8 @@
                  Header="Likes"
                  Text="{x:Bind Path=ViewModel.Likes, Mode=TwoWay}" />
         <TextBox Margin="5" Width="200" HorizontalAlignment="Left"
-                 Header="Count Cars"
-                 Text="{x:Bind Path=ViewModel.CarsCount, Mode=TwoWay}" />
+                 Header="Age"
+                 Text="{x:Bind Path=ViewModel.Age, Mode=TwoWay}" />
 
         <!-- Readonly copies to see, what is actually written to the viewmodel -->
         <Grid Height="50" />
@@ -47,8 +47,8 @@
                  Text="{x:Bind Path=ViewModel.Likes, Mode=TwoWay}"
                  IsReadOnly="True"/>
         <TextBox Margin="5" Width="200" HorizontalAlignment="Left"
-                 Header="Count Cars"
-                 Text="{x:Bind Path=ViewModel.CarsCount, Mode=TwoWay}"
+                 Header="Age"
+                 Text="{x:Bind Path=ViewModel.Age, Mode=TwoWay}"
                  IsReadOnly="True"/>
     </StackPanel>
 </Page>

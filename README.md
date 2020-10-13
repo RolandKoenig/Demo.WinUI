@@ -8,5 +8,6 @@ Following features are implemented for my talk on ADC 2020:
  - Validation
  - Tabbed view
  - Transitions
+ - XamlIslands (Win.Forms, WPF)
 
  All samples are implemented on UWP/WinUI2, UWP/WinUI3 and Win32/WinUI3

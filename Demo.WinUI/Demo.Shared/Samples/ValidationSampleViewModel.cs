@@ -10,7 +10,7 @@ namespace Demo.Shared.Samples
         private string _firstName = string.Empty;
         private string _lastName = string.Empty;
         private string _likes;
-        private int _carsCount;
+        private int _age;
 
         public string FirstName
         {
@@ -57,14 +57,14 @@ namespace Demo.Shared.Samples
             }
         }
 
-        public int CarsCount
+        public int Age
         {
-            get => _carsCount;
+            get => _age;
             set
             {
-                if(_carsCount != value)
+                if(_age != value)
                 {
-                    _carsCount = value;
+                    _age = value;
                     this.RaisePropertyChanged();
                 }
             }
