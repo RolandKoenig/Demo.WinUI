@@ -7,7 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using Microsoft.Toolkit.Forms.UI.Controls;
 
-namespace Testing.WinFormsWithXamlIslands.Controls
+namespace Demo.XamlIslands.WinFormsWithXamlIslands.Controls
 {
     public partial class OwnMediaPlayer : OwnXamlControlBase<MediaPlayerElement>
     {

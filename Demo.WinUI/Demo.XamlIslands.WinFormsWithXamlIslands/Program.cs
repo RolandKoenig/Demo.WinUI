@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Testing.WinFormsWithXamlIslands
+namespace Demo.XamlIslands.WinFormsWithXamlIslands
 {
     static class Program
     {
@@ -14,7 +14,7 @@ namespace Testing.WinFormsWithXamlIslands
         [STAThread]
         static void Main()
         {
-            using (var myUwpApp = new Testing.UwpApp.App())
+            using (var myUwpApp = new Demo.XamlIslands.UwpApp.App())
             {
                 Application.SetHighDpiMode(HighDpiMode.PerMonitorV2);
 

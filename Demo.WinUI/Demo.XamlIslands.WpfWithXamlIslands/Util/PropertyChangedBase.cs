@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace Testing.WpfWithXamlIslands.Util
+namespace Demo.XamlIslands.WpfWithXamlIslands.Util
 {
     public class PropertyChangedBase : INotifyPropertyChanged
     {

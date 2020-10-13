@@ -11,7 +11,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Testing.WpfWithXamlIslands.Controls
+namespace Demo.XamlIslands.WpfWithXamlIslands.Controls
 {
     /// <summary>
     /// Interaction logic for OwnCustomSimpleUserControl.xaml
@@ -22,7 +22,7 @@ namespace Testing.WpfWithXamlIslands.Controls
         {
             this.InitializeComponent();
 
-            this.CtrlXamlHost.Child = new Testing.CustomUwpControls.SimpleUserControl();
+            this.CtrlXamlHost.Child = new Demo.XamlIslands.CustomUwpControls.SimpleUserControl();
         }
     }
 }

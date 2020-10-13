@@ -1,4 +1,4 @@
-﻿namespace Testing.WinFormsWithXamlIslands.Controls
+﻿namespace Demo.XamlIslands.WinFormsWithXamlIslands.Controls
 {
     partial class OwnMediaPlayer
     {

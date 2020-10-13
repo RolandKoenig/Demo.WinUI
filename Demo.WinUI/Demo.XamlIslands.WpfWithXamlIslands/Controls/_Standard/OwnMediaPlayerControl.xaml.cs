@@ -13,7 +13,7 @@ using System.Windows.Shapes;
 using Windows.Media.Core;
 using Microsoft.Win32;
 
-namespace Testing.WpfWithXamlIslands.Controls
+namespace Demo.XamlIslands.WpfWithXamlIslands.Controls
 {
     /// <summary>
     /// Interaction logic for OwnMediaPlayerControl.xaml

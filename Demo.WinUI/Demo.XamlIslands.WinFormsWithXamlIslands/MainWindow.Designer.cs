@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace Testing.WinFormsWithXamlIslands
+namespace Demo.XamlIslands.WinFormsWithXamlIslands
 {
     partial class MainWindow
     {

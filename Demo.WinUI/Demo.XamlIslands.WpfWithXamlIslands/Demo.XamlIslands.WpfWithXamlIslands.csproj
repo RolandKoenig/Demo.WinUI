@@ -6,7 +6,7 @@
     <UseWPF>true</UseWPF>
     <Platforms>x86</Platforms>
     <ApplicationManifest>app.manifest</ApplicationManifest>
-    <StartupObject>Testing.WpfWithXamlIslands.Program</StartupObject>
+    <StartupObject>Demo.XamlIslands.WpfWithXamlIslands.Program</StartupObject>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">

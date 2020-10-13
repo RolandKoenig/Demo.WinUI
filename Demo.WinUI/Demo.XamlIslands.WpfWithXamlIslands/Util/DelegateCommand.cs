@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace Testing.WpfWithXamlIslands.Util
+namespace Demo.XamlIslands.WpfWithXamlIslands.Util
 {
     public class DelegateCommand : ICommand
     {

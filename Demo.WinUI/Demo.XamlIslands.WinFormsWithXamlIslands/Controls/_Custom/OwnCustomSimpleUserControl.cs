@@ -7,7 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using Microsoft.Toolkit.Forms.UI.XamlHost;
 
-namespace Testing.WinFormsWithXamlIslands.Controls
+namespace Demo.XamlIslands.WinFormsWithXamlIslands.Controls
 {
     public partial class OwnCustomSimpleUserControl : OwnXamlControlBase<WindowsXamlHost>
     {
@@ -20,7 +20,7 @@ namespace Testing.WinFormsWithXamlIslands.Controls
         protected override WindowsXamlHost CreateXamlControl()
         {
             var result = new WindowsXamlHost();
-            result.Child = new Testing.CustomUwpControls.SimpleUserControl();
+            result.Child = new Demo.XamlIslands.CustomUwpControls.SimpleUserControl();
 
             return result;
         }

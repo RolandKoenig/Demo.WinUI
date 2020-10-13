@@ -12,7 +12,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Win32;
 
-namespace Testing.WpfWithXamlIslands.Controls
+namespace Demo.XamlIslands.WpfWithXamlIslands.Controls
 {
     /// <summary>
     /// Interaction logic for OwnMapControl.xaml

@@ -7,8 +7,8 @@
     <ProjectGuid>{E946AD2A-78AA-43E0-AE8E-ED0BA9D6E7F6}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Testing.UwpApp</RootNamespace>
-    <AssemblyName>Testing.UwpApp</AssemblyName>
+    <RootNamespace>Demo.XamlIslands.UwpApp</RootNamespace>
+    <AssemblyName>Demo.XamlIslands.UwpApp</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.18362.0</TargetPlatformVersion>

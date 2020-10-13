@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
-using Testing.WinFormsWithXamlIslands;
-using Testing.WpfWithXamlIslands.Controls;
-using Testing.WpfWithXamlIslands.Util;
+using Demo.WinFormsWithXamlIslands;
+using Demo.XamlIslands.WpfWithXamlIslands.Controls;
+using Demo.XamlIslands.WpfWithXamlIslands.Util;
 
-namespace Testing.WpfWithXamlIslands
+namespace Demo.XamlIslands.WpfWithXamlIslands
 {
     public class MainWindowViewModel : PropertyChangedBase
     {

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
-using Testing.WinFormsWithXamlIslands;
+using Demo.WinFormsWithXamlIslands;
 
-namespace Testing.WpfWithXamlIslands.Controls
+namespace Demo.XamlIslands.WpfWithXamlIslands.Controls
 {
     public class OwnControlHost : Grid
     {

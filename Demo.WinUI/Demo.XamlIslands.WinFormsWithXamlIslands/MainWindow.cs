@@ -7,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Testing.WinFormsWithXamlIslands.Controls;
+using Demo.XamlIslands.WinFormsWithXamlIslands.Controls;
 
-namespace Testing.WinFormsWithXamlIslands
+namespace Demo.XamlIslands.WinFormsWithXamlIslands
 {
     public partial class MainWindow : Form
     {

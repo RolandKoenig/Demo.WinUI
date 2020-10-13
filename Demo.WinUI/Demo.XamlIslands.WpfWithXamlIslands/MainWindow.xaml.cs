@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Testing.WpfWithXamlIslands
+namespace Demo.XamlIslands.WpfWithXamlIslands
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

@@ -4,7 +4,7 @@ using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace Testing.WinFormsWithXamlIslands
+namespace Demo.WinFormsWithXamlIslands
 {
     public class ControlMetaInfo
     {

@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Testing.WpfWithXamlIslands
+namespace Demo.XamlIslands.WpfWithXamlIslands
 {
     public static class Program
     {
         [STAThread]
         public static void Main(string[] args)
         {
-            using (new Testing.UwpApp.App())
+            using (new Demo.XamlIslands.UwpApp.App())
             {
-                var app = new Testing.WpfWithXamlIslands.App();
+                var app = new Demo.XamlIslands.WpfWithXamlIslands.App();
                 app.InitializeComponent();
                 app.Run();
             }

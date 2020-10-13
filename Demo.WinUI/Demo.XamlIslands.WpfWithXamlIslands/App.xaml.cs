@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Testing.WpfWithXamlIslands
+namespace Demo.XamlIslands.WpfWithXamlIslands
 {
     /// <summary>
     /// Interaction logic for App.xaml

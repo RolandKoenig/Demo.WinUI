@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Testing.WinFormsWithXamlIslands
+namespace Demo.XamlIslands.WinFormsWithXamlIslands
 {
     public static class WinFormsHelpers
     {

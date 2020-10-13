@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Testing.WinFormsWithXamlIslands.Controls
+namespace Demo.XamlIslands.WinFormsWithXamlIslands.Controls
 {
     public abstract class OwnXamlControlBase<T> : UserControl
         where T : Control
